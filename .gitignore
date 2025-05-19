@@ -1,0 +1,31 @@
+#PHP Composer
+/vendor/
+
+#Environment
+.env
+
+#Logs
+*.log
+mail_log.txt
+
+#Docker volumes
+pgdata/
+
+# IDE
+.idea/
+
+#PHPUnit
+.phpunit.result.cache
+phpunit.xml
+
+#Cache, temp
+/cache/
+/tmp/
+*.bak
+*.swp
+*~
+
+#System files
+.DS_Store
+Thumbs.db
+
